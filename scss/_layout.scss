@@ -16,6 +16,7 @@
   background-color: white;
   float: left;
   margin: 0 0 0 0;
+  position: relative;
 }
 
 .datetimetopbox {
@@ -48,10 +49,21 @@
 
 .topcenterbox {
   width: 70px;
-  height: 300px;
+  height: 500px;
   background-color: white;
   float: left;
   padding: 5px;
+  position: relative;
+
+}
+
+.topblueline {
+  width: 10px;
+  height: 500px;
+  background-color: #71c0ef;
+  margin: 0 0 0 20px;
+  position: absolute;
+  top: 54px;
 
 }
 
@@ -116,6 +128,7 @@ img {
   background-color: white;
   float: left;
   margin: 0 0 0 0;
+  position: relative;
 }
 
 .datetimebottombox {
@@ -151,7 +164,19 @@ img {
   height: 300px;
   background-color: white;
   float: left;
-  padding: 5px;
+  padding: 0;
+  margin: 0 0 0 5px;
+  position: relative;
+
+}
+
+.bottomblueline {
+  width: 10px;
+  height: 500px;
+  background-color: #71c0ef;
+  margin: 0 0 0 20px;
+  position: absolute;
+  top: 49px;
 
 }
 
@@ -168,7 +193,7 @@ img {
   height: 280px;
   background-color: #3b95cb;
   float: left;
-  margin: 15px 0 0 0;
+  margin: 15px 0 0 10px;
   border-radius: 10px;
    padding: 5px;
 
