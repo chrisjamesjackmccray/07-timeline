@@ -1,0 +1,123 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
+
+.main {
+  background-color: darkgrey;
+  height: 820px; }
+
+.top {
+  width: 1400px;
+  height: 310px;
+  background-color: white;
+  float: left;
+  margin: 0 0 0 0; }
+
+.datetimetopbox {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  margin: 0 0 0 0;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0; }
+
+.datetop {
+  float: right;
+  margin: 0;
+  color: gray; }
+
+.timetop {
+  float: right;
+  margin: 20px -45px 0 0;
+  font-size: 3rem;
+  color: #71c0ef; }
+
+.topcenterbox {
+  width: 70px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  padding: 5px; }
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; }
+
+.toprightbox {
+  width: 700px;
+  height: 280px;
+  background-color: #71c0ef;
+  float: left;
+  margin: 15px 0 0 0; }
+
+.burgerhead {
+  width: 600px;
+  height: 30px;
+  color: white;
+  margin: 0 0 0 20px;
+  padding: 30px 20px 10px 0;
+  border-bottom: 1px solid white; }
+
+.paragraph {
+  padding: 10px;
+  color: white; }
+
+.bottom {
+  width: 1400px;
+  height: 310px;
+  background-color: white;
+  float: left;
+  margin: 0 0 0 0; }
+
+.datetimebottombox {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  margin: 0 0 0 0;
+  float: left;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0; }
+
+.datebottom {
+  float: right;
+  margin: 0;
+  color: gray; }
+
+.timebottom {
+  float: right;
+  margin: 20px -45px 0 0;
+  font-size: 3rem;
+  color: #71c0ef; }
+
+.bottomcenterbox {
+  width: 70px;
+  height: 300px;
+  background-color: white;
+  float: left;
+  padding: 5px; }
+
+img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; }
+
+.bottomrightbox {
+  width: 700px;
+  height: 280px;
+  background-color: #3b95cb;
+  float: left;
+  margin: 15px 0 0 0; }
+
+.burgerhead {
+  width: 600px;
+  height: 30px;
+  color: white;
+  margin: 0 0 0 20px;
+  padding: 30px 20px 10px 0;
+  border-bottom: 1px solid white; }
+
+.paragraph {
+  padding: 10px;
+  color: white; }
