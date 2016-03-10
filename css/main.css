@@ -9,7 +9,7 @@
   width: 1400px;
   background-color: white;
   float: left;
-  margin: 0 0 0 0;
+  margin: 200px 0 0 0;
   position: relative;
   padding: 0 0 0 0; }
 
@@ -41,9 +41,7 @@
 .topblueline {
   width: 10px;
   height: 500px;
-  background-color: #71c0ef;
-  margin: 40px 0 20 20px;
-  padding: 0 0 0 0; }
+  background-color: #71c0ef; }
 
 img {
   border-radius: 50%;
