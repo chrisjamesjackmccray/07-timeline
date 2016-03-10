@@ -3,20 +3,18 @@
   zoom: 1; }
 
 .main {
-  background-color: darkgrey;
-  height: 820px; }
+  background-color: darkgrey; }
 
 .top {
   width: 1400px;
-  height: 310px;
   background-color: white;
   float: left;
   margin: 0 0 0 0;
-  position: relative; }
+  position: relative;
+  padding: 0 0 0 0; }
 
 .datetimetopbox {
   width: 400px;
-  height: 300px;
   background-color: white;
   margin: 0 0 0 0;
   float: left;
@@ -36,28 +34,23 @@
 
 .topcenterbox {
   width: 70px;
-  height: 500px;
   background-color: white;
   float: left;
-  padding: 5px;
-  position: relative; }
+  padding: 0; }
 
 .topblueline {
   width: 10px;
   height: 500px;
   background-color: #71c0ef;
-  margin: 0 0 0 20px;
-  position: absolute;
-  top: 54px; }
+  margin: 40px 0 20 20px;
+  padding: 0 0 0 0; }
 
 img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px; }
+  width: 50px; }
 
 .toprightbox {
   width: 600px;
-  height: 280px;
   background-color: #71c0ef;
   float: left;
   margin: 15px 0 0 0;
@@ -66,7 +59,6 @@ img {
 
 .burgerhead {
   width: 600px;
-  height: 30px;
   color: white;
   margin: 0 0 0 20px;
   padding: 30px 20px 10px 0;
@@ -76,9 +68,8 @@ img {
   padding: 10px;
   color: white; }
 
-.bottom {
+.top {
   width: 1400px;
-  height: 310px;
   background-color: white;
   float: left;
   margin: 0 0 0 0;
@@ -86,7 +77,6 @@ img {
 
 .datetimebottombox {
   width: 400px;
-  height: 300px;
   background-color: white;
   margin: 0 0 0 0;
   float: left;
@@ -104,40 +94,33 @@ img {
   font-size: 3rem;
   color: #71c0ef; }
 
-.bottomcenterbox {
+.topcenterbox {
   width: 70px;
-  height: 300px;
   background-color: white;
   float: left;
   padding: 0;
-  margin: 0 0 0 5px;
-  position: relative; }
+  margin: 0 0 0 5px; }
 
-.bottomblueline {
+.topblueline {
   width: 10px;
   height: 500px;
   background-color: #71c0ef;
-  margin: 0 0 0 20px;
-  position: absolute;
-  top: 49px; }
+  margin: 0 0 0 20px; }
 
 img {
   border-radius: 50%;
-  width: 50px;
-  height: 50px; }
+  width: 50px; }
 
 .bottomrightbox {
   width: 600px;
-  height: 280px;
   background-color: #3b95cb;
   float: left;
-  margin: 15px 0 0 10px;
+  margin: 15px 0 0 0;
   border-radius: 10px;
   padding: 5px; }
 
 .burgerhead {
   width: 500px;
-  height: 30px;
   color: white;
   margin: 0 0 0 20px;
   padding: 30px 20px 10px 0;
@@ -146,3 +129,7 @@ img {
 .paragraph {
   padding: 10px;
   color: white; }
+
+.scroll {
+  position: absolute;
+  height: 800px; }
