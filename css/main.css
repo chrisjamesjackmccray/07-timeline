@@ -10,7 +10,6 @@
   background-color: white;
   float: left;
   margin: 200px 0 0 0;
-  position: relative;
   padding: 0 0 0 0; }
 
 .datetimetopbox {
@@ -40,11 +39,14 @@
 
 .topblueline {
   width: 10px;
-  height: 500px;
-  background-color: #71c0ef; }
+  height: 278px;
+  background-color: #71C0EF;
+  margin: 0 0 0 20px;
+  position: absolute;
+  top: 49px; }
 
 img {
-  border-radius: 50%;
+  border-radius: 70%;
   width: 50px; }
 
 .toprightbox {
@@ -70,8 +72,7 @@ img {
   width: 1400px;
   background-color: white;
   float: left;
-  margin: 0 0 0 0;
-  position: relative; }
+  margin: 0 0 0 0; }
 
 .datetimebottombox {
   width: 400px;
@@ -97,13 +98,15 @@ img {
   background-color: white;
   float: left;
   padding: 0;
-  margin: 0 0 0 5px; }
+  margin: 0 0 0 5px;
+  position: inherit; }
 
-.topblueline {
+.bottomblueline {
   width: 10px;
   height: 500px;
-  background-color: #71c0ef;
-  margin: 0 0 0 20px; }
+  background-color: #71C0EF;
+  margin: -5px 0 0 20px;
+  position: absolute; }
 
 img {
   border-radius: 50%;
@@ -129,5 +132,5 @@ img {
   color: white; }
 
 .scroll {
-  position: absolute;
-  height: 800px; }
+  height: 800px;
+  position: absolute; }
